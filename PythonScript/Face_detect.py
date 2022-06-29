@@ -27,7 +27,7 @@ sql_getToken = "SELECT token FROM user"
 image_path = "D:/FLASK_APP/static/imgs/" #C:\Audddxd\KMUTNB\Project\WebDev\static\imgs static/imgs/pic.
 video_path = "D:/FLASK_APP/static/VDO/"
 
-push_service = FCMNotification(api_key="AAAAr4xwlvg:APA91bFidNYFnfOOlzvO-xJebUrX2JU7CzlpZIWF1SqEl_x06-L9t-lITkRVu7mhnA1_hIb9yK72Jn0kaYaDhII5zr7juA_31F2sIHs8ibjWRXZQ52PH_Oxr5IjrYSF2uAtZVB4yarrj")
+push_service = FCMNotification(api_key="API Key in firebase project")
 
 faceCascade=cv2.CascadeClassifier(cv2.data.haarcascades+"haarcascade_frontalface_default.xml") #C:\\Users\\LEGION\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml
 
